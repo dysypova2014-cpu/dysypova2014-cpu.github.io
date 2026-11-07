@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>КиноБезРекламы</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="index.html">КиноБезРекламы</a>
+  <input id="search" type="search" placeholder="Поиск фильмов и сериалов…" autocomplete="off">
+  <div class="filters">
+    <select id="typeFilter">
+      <option value="">Все</option>
+      <option value="movie">Фильмы</option>
+      <option value="series">Сериалы</option>
+    </select>
+    <select id="genreFilter"><option value="">Жанр</option></select>
+  </div>
+</header>
+<main>
+  <p id="status" class="status">Загрузка каталога…</p>
+  <div id="grid" class="grid"></div>
+</main>
+<footer class="footer">Локальный каталог. Рекламы нет. Сбора данных нет.</footer>
+<script src="js/app.js"></script>
+</body>
+</html>

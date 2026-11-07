@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "id": "dune-2",
+      "type": "movie",
+      "title": "Дюна: Часть вторая",
+      "year": 2024,
+      "genres": ["фантастика", "драма"],
+      "rating": 8.5,
+      "duration": 166,
+      "poster": "",
+      "description": "Пол Атрейдес объединяется с фременами, чтобы отомстить заговорщикам, уничтожившим его семью.",
+      "sources": [
+        { "label": "1080p", "url": "media/dune2-1080.mp4", "type": "video/mp4" }
+      ]
+    },
+    {
+      "id": "oppenheimer",
+      "type": "movie",
+      "title": "Оппенгеймер",
+      "year": 2023,
+      "genres": ["драма", "история"],
+      "rating": 8.3,
+      "duration": 180,
+      "poster": "",
+      "description": "История Роберта Оппенгеймера и создания атомной бомбы.",
+      "sources": [
+        { "label": "1080p", "url": "media/oppenheimer-1080.mp4", "type": "video/mp4" }
+      ]
+    },
+    {
+      "id": "severance",
+      "type": "series",
+      "title": "Разделение",
+      "year": 2022,
+      "genres": ["триллер", "фантастика"],
+      "rating": 8.7,
+      "description": "Сотрудники корпорации проходят процедуру разделения памяти.",
+      "seasons": [
+        {
+          "number": 1,
+          "episodes": [
+            { "number": 1, "title": "Хорошие новости о аде", "duration": 57,
+              "sources": [{ "label": "720p", "url": "media/severance-s01e01.mp4", "type": "video/mp4" }] },
+            { "number": 2, "title": "Полураспад", "duration": 51,
+              "sources": [{ "label": "720p", "url": "media/severance-s01e02.mp4", "type": "video/mp4" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-bear",
+      "type": "series",
+      "title": "Медведь",
+      "year": 2022,
+      "genres": ["драма", "комедия"],
+      "rating": 8.6,
+      "description": "Молодой шеф-повар возвращается в Чикаго управлять семейным рестораном.",
+      "seasons": [
+        {
+          "number": 1,
+          "episodes": [
+            { "number": 1, "title": "Система", "duration": 27,
+              "sources": [{ "label": "720p", "url": "media/the-bear-s01e01.mp4", "type": "video/mp4" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blade-runner-2049",
+      "type": "movie",
+      "title": "Бегущий по лезвию 2049",
+      "year": 2017,
+      "genres": ["фантастика", "триллер"],
+      "rating": 8.0,
+      "duration": 164,
+      "poster": "",
+      "description": "Офицер Кей раскрывает тайну, способную изменить судьбу человечества.",
+      "sources": [
+        { "label": "1080p", "url": "media/blade-runner-2049-1080.mp4", "type": "video/mp4" }
+      ]
+    }
+  ]
+}
